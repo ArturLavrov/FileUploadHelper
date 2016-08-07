@@ -15,12 +15,12 @@ Then browse image from your disk (in my case this is avatar.png), press OK and y
 ![alt tag](https://s8.postimg.org/kycbl1kxx/Upload_Image_Action.png)<br>
 Press Upload and your file will be upload. That’s all.
 ###What else?
-If you want to use other helpers, mechanic is the same.For example you can use UploadImageWithThumbnail. This is useful when you need to upload user profile image
+If you want to use other helpers, mechanic is the same.For example you can use **UploadImageWithThumbnail**. This is useful when you need to upload user profile image
 ```c#
 @Html.UploadImageWithThumbnail("UploadImage","Home")
 ```
 ![alt tag](https://s7.postimg.org/tv81tz7uz/Upload_Avatar.png)<br>
-If you want to upload multiply images with thumbnails use UploadImagesWithThumbnail:
+If you want to upload multiple images with thumbnails use **UploadImagesWithThumbnail**:
 ```c#
 @Html.UploadImagesWithThumbnail ("UploadImages", "Home")
 ```
