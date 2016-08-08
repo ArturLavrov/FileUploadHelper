@@ -1,4 +1,4 @@
 language: csharp
-solution: AspNetUploadHelpers.sln
+solution: Example/AspNetUploadHelpers.sln
 install:
   - nuget install JetBrains.Annotations
