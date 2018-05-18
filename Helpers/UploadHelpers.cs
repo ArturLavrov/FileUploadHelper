@@ -6,6 +6,7 @@ namespace AspNetUploadHelpers.Infrastructure.Helpers
 {
     public static class UploadHelpers
     {
+        //TODO: Test integration with TaskManager
         public static MvcHtmlString UploadImage(this HtmlHelper html,[AspMvcAction]string actionName,[AspMvcController]string controllerName)
         {
             var formTag = new TagBuilder("form");
