@@ -125,6 +125,7 @@ namespace AspNetUploadHelpers.Infrastructure.Helpers
             
         }
 
+        //TODO: GenerateInputGroupDiv method refactoring!
         private static MvcHtmlString GenerateInputGroupDiv(params string[] configurationParams)
         {
             var divTag = new TagBuilder("div");
