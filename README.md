@@ -1,4 +1,7 @@
 #FileUploadHelper
+[![Build Status](https://dev.azure.com/arturstylus/FileUploadHelper/_apis/build/status/ArturLavrov.FileUploadHelper?branchName=master)](https://dev.azure.com/arturstylus/FileUploadHelper/_build/latest?definitionId=1?branchName=master)
+
+
 ###Short Overview
 AspNetUploadHelpers-this is the set of ASP.NET MVC Helpers for uploading image, images or other file to your web-application 
 without any client-side code.
